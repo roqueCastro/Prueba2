@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnActu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="actualizar"
+        android:layout_weight="0.5"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <Button
+        android:id="@+id/btnEli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:layout_weight="0.5"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="173dp" />
+</LinearLayout>
