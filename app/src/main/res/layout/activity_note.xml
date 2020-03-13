@@ -13,7 +13,7 @@ tools:context="com.example.asus.prueba2.activities.NoteActivity">
     android:layout_height="match_parent"
     />
 
-<android.support.design.widget.FloatingActionButton
+<com.google.android.material.floatingactionbutton.FloatingActionButton
     android:id="@+id/fabAddNote"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"

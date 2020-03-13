@@ -1,17 +1,17 @@
 package com.example.asus.prueba2.activities;
 
 import android.content.DialogInterface;
-import android.content.Intent;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.ActionMode;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,9 +26,8 @@ import com.example.asus.prueba2.models.Note;
 import io.realm.Realm;
 import io.realm.RealmChangeListener;
 import io.realm.RealmList;
-import io.realm.RealmResults;
 
-public class NoteActivity extends AppCompatActivity implements RealmChangeListener<Board>, AdapterView.OnItemClickListener  {
+public class NoteActivity extends AppCompatActivity implements RealmChangeListener<Board>, AdapterView.OnItemClickListener {
 
     private int usuarioSeleccionado = -1;
     private Object mActionMode;
@@ -309,6 +308,5 @@ public class NoteActivity extends AppCompatActivity implements RealmChangeListen
         prueba("Elija una opcion", notes.get(position));
 
     }
-
 
 }
